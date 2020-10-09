@@ -57,7 +57,7 @@ public class GraphicsPanel extends JPanel implements MouseListener {
     }
     
     public int[] getTileXYFromCoordinates(MouseEvent e) {
-    	int[] tile = { e.getY() / CELL_SIZE, e.getX() / CELL_SIZE };
+    	int[] tile = { e.getX() / CELL_SIZE, e.getY() / CELL_SIZE };
     	return tile;
     }
     
